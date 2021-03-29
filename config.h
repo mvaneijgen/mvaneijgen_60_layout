@@ -24,12 +24,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x0000
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    Mitchel van Eijgen
-#define PRODUCT         mvaneijgen_numpad_split
+#define PRODUCT         mvaneijgen_60_layout
 #define DESCRIPTION     A custom keyboard
 
 /* key matrix size */
 #define MATRIX_ROWS 5
-#define MATRIX_COLS 5
+#define MATRIX_COLS 15
 
 /*
  * Keyboard Matrix Assignments
@@ -43,7 +43,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 // #define MATRIX_ROW_PINS { B6, B2, B3, B1, F7 }
 #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
-#define MATRIX_COL_PINS { B5, B4, E6, D7, C6 }
+#define MATRIX_COL_PINS { F6, F5, F4, D3, D2, D1, D0, D4, C6, D7, E6, B4, B5, D5, B0 }
+// #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, D3, D2, B3, B2, B6, B5, B4, E6, B0, D5 }
+// #define MATRIX_ROW_PINS { F7, B1, B3, B2, B6 }
+// #define MATRIX_COL_PINS { B5, B4, E6, D7, C6 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
